@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aldeia Advisor - Fire Recovery Assistant Demo</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+        
+        .header {
+            text-align: center;
+            color: white;
+            margin-bottom: 60px;
+        }
+        
+        .header h1 {
+            font-size: 3rem;
+            margin-bottom: 20px;
+            text-shadow: 0 2px 4px rgba(0,0,0,0.3);
+        }
+        
+        .header p {
+            font-size: 1.2rem;
+            opacity: 0.9;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin-bottom: 60px;
+        }
+        
+        .feature-card {
+            background: white;
+            padding: 30px;
+            border-radius: 16px;
+            box-shadow: 0 8px 32px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+        
+        .feature-card h3 {
+            color: #667eea;
+            margin-bottom: 15px;
+            font-size: 1.5rem;
+        }
+        
+        .feature-card p {
+            color: #666;
+            line-height: 1.6;
+        }
+        
+        .demo-section {
+            background: white;
+            padding: 40px;
+            border-radius: 16px;
+            box-shadow: 0 8px 32px rgba(0,0,0,0.1);
+            margin-bottom: 40px;
+        }
+        
+        .demo-section h2 {
+            color: #667eea;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        
+        .demo-content {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        
+        .demo-content p {
+            color: #666;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+        
+        .cta-button {
+            display: inline-block;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 15px 30px;
+            border-radius: 30px;
+            text-decoration: none;
+            font-weight: 500;
+            transition: transform 0.2s ease;
+            margin: 10px;
+        }
+        
+        .cta-button:hover {
+            transform: translateY(-2px);
+        }
+        
+        .integration-code {
+            background: #f8f9fa;
+            border: 1px solid #e9ecef;
+            border-radius: 8px;
+            padding: 20px;
+            margin: 20px 0;
+            font-family: 'Courier New', monospace;
+            font-size: 14px;
+            overflow-x: auto;
+        }
+        
+        .footer {
+            text-align: center;
+            color: white;
+            opacity: 0.8;
+            margin-top: 60px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🔥 Aldeia Advisor</h1>
+            <p>Your intelligent assistant for fire recovery information in LA County. Get instant answers about permits, debris removal, rebuilding processes, and more.</p>
+        </div>
+        
+        <div class="features">
+            <div class="feature-card">
+                <h3>🤖 AI-Powered</h3>
+                <p>Advanced natural language processing to understand your questions and provide accurate, contextual responses based on official documents.</p>
+            </div>
+            <div class="feature-card">
+                <h3>📄 Document-Aware</h3>
+                <p>Automatically analyzes your current page context and provides relevant information from trusted LA County and Pasadena County sources.</p>
+            </div>
+            <div class="feature-card">
+                <h3>⚖️ Ethically Governed</h3>
+                <p>Built with transparency, bias detection, and confidence scoring to ensure trustworthy and fair assistance for all users.</p>
+            </div>
+            <div class="feature-card">
+                <h3>🔗 Easy Integration</h3>
+                <p>Simple one-line script to add the chatbot to any website. Works seamlessly with your existing content and design.</p>
+            </div>
+            <div class="feature-card">
+                <h3>📱 Mobile Friendly</h3>
+                <p>Responsive design that works perfectly on desktop, tablet, and mobile devices with intuitive touch interactions.</p>
+            </div>
+            <div class="feature-card">
+                <h3>🔄 Real-time Updates</h3>
+                <p>Continuously updated knowledge base with the latest fire recovery information, permits, and procedures.</p>
+            </div>
+        </div>
+        
+        <div class="demo-section">
+            <h2>Try It Now!</h2>
+            <div class="demo-content">
+                <p>Look for the chat bubble in the bottom-right corner of this page. Aldeia Advisor will greet you and help you find information about fire recovery processes, permits, debris removal, and more.</p>
+                
+                <p><strong>Example questions you can ask:</strong></p>
+                <ul style="color: #666; line-height: 1.6;">
+                    <li>"How do I apply for a debris removal permit?"</li>
+                    <li>"What are the steps to rebuild after a fire?"</li>
+                    <li>"Where can I find information about opt-out procedures?"</li>
+                    <li>"What inspections are required for rebuilding?"</li>
+                    <li>"How do I get help with fire recovery in Pasadena?"</li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="demo-section">
+            <h2>Integration Guide</h2>
+            <div class="demo-content">
+                <p>Add Aldeia Advisor to your website with just one line of code:</p>
+                
+                <div class="integration-code">
+&lt;script src="https://yourdomain.com/aldeia-advisor.js"&gt;&lt;/script&gt;
+                </div>
+                
+                <p><strong>For custom configuration:</strong></p>
+                <div class="integration-code">
+&lt;script&gt;
+window.ALDEIA_CONFIG = {
+  API_URL: 'https://your-backend-url.com/api/chat',
+  SEARCH_API_URL: 'https://your-backend-url.com/api/chat/search'
+};
+&lt;/script&gt;
+&lt;script src="https://yourdomain.com/aldeia-advisor.js"&gt;&lt;/script&gt;
+                </div>
+                
+                <p>The chatbot will automatically:</p>
+                <ul style="color: #666; line-height: 1.6;">
+                    <li>Analyze page content for context</li>
+                    <li>Provide a welcoming greeting</li>
+                    <li>Answer questions about fire recovery</li>
+                    <li>Link to relevant official documents</li>
+                    <li>Maintain conversation history</li>
+                </ul>
+                
+                <div style="text-align: center; margin-top: 30px;">
+                    <a href="#" class="cta-button">Get Started</a>
+                    <a href="#" class="cta-button">View Documentation</a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="demo-section">
+            <h2>Features & Capabilities</h2>
+            <div class="demo-content">
+                <h3>🎯 Context-Aware Responses</h3>
+                <p>Aldeia Advisor understands what page you're on and provides relevant information based on your current context.</p>
+                
+                <h3>📊 Confidence Scoring</h3>
+                <p>Every response includes a confidence score so you know how reliable the information is.</p>
+                
+                <h3>⚠️ Bias Detection</h3>
+                <p>Advanced algorithms detect and warn about potential bias in responses to ensure fair and equitable assistance.</p>
+                
+                <h3>🔍 Document Search</h3>
+                <p>Automatically finds and links to relevant official documents from LA County and Pasadena County sources.</p>
+                
+                <h3>💬 Natural Conversations</h3>
+                <p>Engage in natural conversations with follow-up questions and clarifications when needed.</p>
+                
+                <h3>📱 Responsive Design</h3>
+                <p>Works seamlessly across all devices with an intuitive, accessible interface.</p>
+            </div>
+        </div>
+        
+        <div class="footer">
+            <p>&copy; 2024 Aldeia Advisor. Built with ❤️ for LA County fire recovery assistance.</p>
+        </div>
+    </div>
+    
+    <!-- Aldeia Advisor Integration -->
+    <script src="aldeia-advisor.js"></script>
+</body>
+</html> 

@@ -1,0 +1,32 @@
+
+[2025-06-24T21:05:01.408Z]
+Request: {"url":"/","body":{"message":"how can you help","context":"Page Title: LA County Fire Recovery Assistant | Key Topics: LA County Fire Recovery Assistant","pageUrl":"http://localhost:3000/"}}
+Error: ChromaNotFoundError: The requested resource could not be found
+    at chromaFetch (/Users/gverma/Desktop/SuperThinks/chatbot/backend/node_modules/chromadb/src/chroma-fetch.ts:56:13)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async o (/Users/gverma/Desktop/SuperThinks/chatbot/backend/node_modules/.pnpm/@hey-api+client-fetch@0.10.0_@hey-api+openapi-ts@0.67.3_typescript@5.8.3_/node_modules/@hey-api/client-fetch/src/client.ts:74:20)
+    at async _CollectionImpl.query (/Users/gverma/Desktop/SuperThinks/chatbot/backend/node_modules/chromadb/src/collection.ts:502:22)
+
+[2025-06-24T21:05:01.429Z]
+Request: {"url":"/search","body":{"query":"how can you help"}}
+Error: ChromaNotFoundError: The requested resource could not be found
+    at chromaFetch (/Users/gverma/Desktop/SuperThinks/chatbot/backend/node_modules/chromadb/src/chroma-fetch.ts:56:13)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async o (/Users/gverma/Desktop/SuperThinks/chatbot/backend/node_modules/.pnpm/@hey-api+client-fetch@0.10.0_@hey-api+openapi-ts@0.67.3_typescript@5.8.3_/node_modules/@hey-api/client-fetch/src/client.ts:74:20)
+    at async _CollectionImpl.query (/Users/gverma/Desktop/SuperThinks/chatbot/backend/node_modules/chromadb/src/collection.ts:502:22)
+
+[2025-06-24T21:05:47.085Z]
+Request: {"url":"/","body":{"message":"g","context":"Page Title: LA County Fire Recovery Assistant | Key Topics: LA County Fire Recovery Assistant","pageUrl":"http://localhost:3000/"}}
+Error: ChromaNotFoundError: The requested resource could not be found
+    at chromaFetch (/Users/gverma/Desktop/SuperThinks/chatbot/backend/node_modules/chromadb/src/chroma-fetch.ts:56:13)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async o (/Users/gverma/Desktop/SuperThinks/chatbot/backend/node_modules/.pnpm/@hey-api+client-fetch@0.10.0_@hey-api+openapi-ts@0.67.3_typescript@5.8.3_/node_modules/@hey-api/client-fetch/src/client.ts:74:20)
+    at async _CollectionImpl.query (/Users/gverma/Desktop/SuperThinks/chatbot/backend/node_modules/chromadb/src/collection.ts:502:22)
+
+[2025-06-24T21:05:47.103Z]
+Request: {"url":"/search","body":{"query":"g"}}
+Error: ChromaNotFoundError: The requested resource could not be found
+    at chromaFetch (/Users/gverma/Desktop/SuperThinks/chatbot/backend/node_modules/chromadb/src/chroma-fetch.ts:56:13)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async o (/Users/gverma/Desktop/SuperThinks/chatbot/backend/node_modules/.pnpm/@hey-api+client-fetch@0.10.0_@hey-api+openapi-ts@0.67.3_typescript@5.8.3_/node_modules/@hey-api/client-fetch/src/client.ts:74:20)
+    at async _CollectionImpl.query (/Users/gverma/Desktop/SuperThinks/chatbot/backend/node_modules/chromadb/src/collection.ts:502:22)
